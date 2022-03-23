@@ -6,7 +6,7 @@ namespace SelectionStatementsExercise
     {
         static void Main(string[] args)
         {
-            //favoritenum();
+            //favoriteNum();
 
             var r = new Random();
             var favNumber = r.Next(1, 10);
@@ -28,28 +28,28 @@ namespace SelectionStatementsExercise
 
             // SwitchCaseFavSchoolSubjectEx2
 
-            Console.WriteLine("what is your favorite subject to take in school?");
+            Console.WriteLine("What is your favorite subject to take in school?");
             string userfavsubject = Console.ReadLine();
 
             switch (userfavsubject.ToLower())
             {
                 case "organic chemistry":
-                    Console.WriteLine("ugh, too many carbons. that is known as the weedout class to get into medical school.");
+                    Console.WriteLine("Ugh, too many carbons. That is known as the weed-out class to get into medical school.");
                     break;
                 case "physics":
-                    Console.WriteLine("you must be sheldon cooper smart!");
+                    Console.WriteLine("You must be Sheldon Cooper smart!");
                     break;
                 case "calculus":
-                    Console.WriteLine("letters as numbers, i do not like that kind of math.");
+                    Console.WriteLine("Letters as numbers,guh! I do not like that kind of math.");
                     break;
                 case "computer science":
-                    Console.WriteLine("you are offically my new best friend.that is my favorite class too! i love computers.");
+                    Console.WriteLine("You are offically my new best friend.That is my favorite class too! I love computers.");
                     break;
                 case "spanish":
-                    Console.WriteLine("i struggled in that class. i cannot roll my rs to speak that language well.");
+                    Console.WriteLine("I struggled in that class. I cannot roll my Rs to articulate that language well.");
                     break;
                 default:
-                    Console.WriteLine($"oh, i have not taken {userfavsubject}. sounds like fun!");
+                    Console.WriteLine($"Oh, I have not taken {userfavsubject}. That sounds like a great class!");
                     break;
             }
 
